@@ -13,6 +13,10 @@
            remote="aosp"
            sync-j="8" />
 
+  <!-- KS-TheWiz Repo's -->
+  <project path="manifest" name="manifest" remote="thewiz" revision="android-n" />
+
+  <!-- AOSP Repo's -->
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
