@@ -16,6 +16,7 @@
   <!-- KS-TheWiz Repo's -->
   <project path="manifest" name="manifest" remote="thewiz" revision="android-n" />
   <project path="frameworks/base" name="android_frameworks_base" remote="thewiz" revision="n-7.0" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="thewiz" revision="n-7.0" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="thewiz" revision="n-7.0" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="thewiz" revision="n-7.0" />
 
@@ -323,7 +324,6 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
