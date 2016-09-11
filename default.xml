@@ -14,6 +14,9 @@
            sync-j="8" />
 
   <!-- KS-TheWiz Repo's -->
+  <project path="build" name="android_build" remote="thewiz" revision="n-7.0" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="manifest" name="manifest" remote="thewiz" revision="android-n" />
   <project path="frameworks/base" name="android_frameworks_base" remote="thewiz" revision="n-7.0" />
   <project path="frameworks/native" name="android_frameworks_native" remote="thewiz" revision="n-7.0" />
@@ -22,9 +25,6 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="thewiz" revision="n-7.0" />
 
   <!-- AOSP Repo's -->
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
