@@ -17,6 +17,7 @@
   <project path="manifest" name="manifest" remote="thewiz" revision="android-n" />
   <project path="frameworks/base" name="android_frameworks_base" remote="thewiz" revision="n-7.0" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="thewiz" revision="n-7.0" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="thewiz" revision="n-7.0" />
 
   <!-- AOSP Repo's -->
   <project path="build" name="platform/build" groups="pdk,tradefed" >
@@ -440,7 +441,6 @@
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
